@@ -1,9 +1,9 @@
-def check(str1, sstr): 
-   if (str1.find(sstr) == -1): 
-      print(sstr,"IS NOT PRESENT IN THE GIVEN STRING") 
-   else: 
-      print(sstr,"IS PRESENT IN THE GIVEN STRING") 
-# Driver code 
-str1 = input("Enter the string ::")
-sstr=input("Enter Substring ::")
-check(str1, sstr) 
+def check(string, sub_str):
+    if (string.find(sub_str) == -1):
+        print("NO")
+    else:
+        print("YES")
+            
+string = "geeks for geeks"
+sub_str ="geek"
+check(string, sub_str)
